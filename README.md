@@ -1,16 +1,16 @@
-Global Terrorism Data Analysis (1970–2017)
+ Global Terrorism Data Analysis (1970–2017)
  Project Overview
 This project analyzes global terrorism data from 1970 to 2017 to uncover patterns in terrorist activities, including trends over time, geographic distribution, attack methods, and the overall impact in terms of casualties, property damage, and ransom demands.
 
 The dataset contains over 180,000 recorded incidents and provides detailed information on attack characteristics, locations, and outcomes.
 
-Objectives
+ Objectives
 Analyze trends in terrorist attacks over time
 Identify the most affected countries, regions, and cities
 Examine attack methods and weapon usage
 Evaluate the impact of attacks (casualties, property damage, ransom)
 Visualize patterns using multiple graph types
-Dataset Description
+ Dataset Description
 The dataset includes the following key attributes:
 
 Date Information: Year, month, and day of the attack
@@ -23,7 +23,7 @@ Weapon Details: Weapons used in the attack
 
 Target Information: Type of target (civilians, military, etc.)
 
-Impact Metrics:
+ Impact Metrics:
 
 Number of people killed (nkill)
 Number of people wounded (nwound)
@@ -32,7 +32,7 @@ Ransom involvement (ransom, ransomamt)
 Technologies Used
 Python
 
-Libraries:
+ Libraries:
 
 pandas (data manipulation)
 numpy (numerical operations)
@@ -52,7 +52,7 @@ Information on the attack methods used, weapons involved, and the nature of the 
 4. Impact Assessment:
 Data on casualties, including the number of killed or wounded, and any property damage or ransom demands associated with the attacks.
 
-Visualizations
+ Visualizations
 The project includes multiple types of visualizations:
 
 Line charts (trend analysis)
