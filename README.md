@@ -1,77 +1,58 @@
 Global Terrorism Data Analysis (1970–2017)
- Project Overview
-This project analyzes global terrorism data from 1970 to 2017 to uncover patterns in terrorist activities, including trends over time, geographic distribution, attack methods, and the overall impact in terms of casualties, property damage, and ransom demands.
+Project Overview
+This project analyzes global terrorism data from 1970 to 2017 to uncover patterns in terrorist activities, including trends over time, geographic distribution, and attack methods. By synthesizing over 180,000 recorded incidents, the study evaluates the broader impact regarding casualties, property damage, and ransom demands.
 
-The dataset contains over 180,000 recorded incidents and provides detailed information on attack characteristics, locations, and outcomes.
+Objectives
+Analyze global trends in terrorist attacks over five decades.
 
- Objectives
-Analyze trends in terrorist attacks over time
-Identify the most affected countries, regions, and cities
-Examine attack methods and weapon usage
-Evaluate the impact of attacks (casualties, property damage, ransom)
-Visualize patterns using multiple graph types
- Dataset Description
-The dataset includes the following key attributes:
+Identify the most affected countries, regions, and cities.
 
-Date Information: Year, month, and day of the attack
+Examine the evolution of attack methods and weapon usage.
 
-Location Details: Country, region, and city
+Quantify the impact of attacks through casualty and economic metrics.
 
-Attack Information: Type of attack (e.g., bombing, assassination)
+Visualize complex data patterns using diverse statistical plots.
 
-Weapon Details: Weapons used in the attack
+Dataset Description
+The dataset encompasses key attributes including:
 
-Target Information: Type of target (civilians, military, etc.)
+Temporal Data: Year, month, and day of the incident.
 
-Impact Metrics:
+Geographic Data: Country, region, and city.
 
-Number of people killed (nkill)
-Number of people wounded (nwound)
-Property damage (property)
-Ransom involvement (ransom, ransomamt)
- Technologies Used
-Python
+Incident Specifics: Attack types, weapon details, and target categories.
 
-Libraries:
+Impact Metrics: Fatality counts (nkill), injury counts (nwound), property damage, and ransom details.
 
-pandas (data manipulation)
-numpy (numerical operations)
-matplotlib (visualization)
-seaborn (advanced visualization)
-tabulate (formatted tables)
- Analysis Performed
-1. Event Specifics:
-Detailed records of each terrorist attack, including date, location, and the nature of the incident (e.g., assassination, bombing, hostage-taking).
+Technologies Used
+Language: Python
 
-2. Geographic and Demographic Information:
-Insights into the geographic regions affected, including country, region, and city specifics, as well as details about targeted groups or individuals.
+Libraries: Pandas, NumPy, Matplotlib, Seaborn, and Tabulate.
 
-3. Attack Details:
-Information on the attack methods used, weapons involved, and the nature of the attack (e.g., explosive, incendiary, or armed assault)
+Data Preprocessing
+Replaced missing values in casualty columns (nkill/nwound) with 0.
 
-4. Impact Assessment:
-Data on casualties, including the number of killed or wounded, and any property damage or ransom demands associated with the attacks.
+Filtered unknown values (-9) from property damage records.
 
- Visualizations
-The project includes multiple types of visualizations:
+Handled ransom-related fields conditionally to ensure statistical integrity.
 
-Line charts (trend analysis)
-Bar charts (comparisons)
-Pie charts (proportions)
-Heatmaps (relationships between variables)
-Scatter plots (correlations)
-Box plots (outlier detection)
-Histograms (distribution analysis)
- Data Preprocessing
-Missing values in nkill and nwound replaced with 0
--9 values in property column treated as unknown and removed
-Ransom-related fields handled conditionally
- Key Insights
-Terrorist attacks have increased significantly in the 21st century
-Attacks are concentrated in specific regions (Middle East, South Asia)
-Bombings/explosions are the most common attack type
-Most attacks result in low casualties, but a few extreme events dominate totals
-Property damage is a frequent consequence of attacks
-Ransom-related incidents highlight economic motivations
- Conclusion
-This project provides a comprehensive analysis of global terrorism trends, highlighting key patterns in geography, attack methods, and impact. The findings can support further research in security, policy-making, and risk assessment.
+Analysis & Visualizations
+The analysis covers event specifics, geographic shifts, and impact assessments. Visualizations include:
+
+Trend Analysis: Line charts and histograms for temporal distribution.
+
+Categorical Comparisons: Bar and pie charts for attack and weapon types.
+
+Statistical Relationships: Heatmaps for variable correlation, scatter plots, and box plots for outlier detection.
+
+Key Insights
+Temporal Surges: A significant increase in recorded incidents during the 21st century.
+
+Regional Concentration: Activities are heavily concentrated in the Middle East, South Asia, and North Africa.
+
+Tactical Trends: Bombings and explosions remain the most frequent attack method.
+
+Economic Impact: Beyond human casualties, property damage and ransom incidents highlight the economic motivations of perpetrator groups.
+
+Conclusion
+This project provides a comprehensive overview of global terrorism trends, highlighting critical patterns in geography and methodology. The findings serve as a foundation for research in security studies, policy-making, and international risk assessment.
