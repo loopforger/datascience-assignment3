@@ -1,4 +1,4 @@
- Global Terrorism Data Analysis (1970–2017)
+Global Terrorism Data Analysis (1970–2017)
  Project Overview
 This project analyzes global terrorism data from 1970 to 2017 to uncover patterns in terrorist activities, including trends over time, geographic distribution, attack methods, and the overall impact in terms of casualties, property damage, and ransom demands.
 
@@ -23,16 +23,16 @@ Weapon Details: Weapons used in the attack
 
 Target Information: Type of target (civilians, military, etc.)
 
- Impact Metrics:
+Impact Metrics:
 
 Number of people killed (nkill)
 Number of people wounded (nwound)
 Property damage (property)
 Ransom involvement (ransom, ransomamt)
-Technologies Used
+ Technologies Used
 Python
 
- Libraries:
+Libraries:
 
 pandas (data manipulation)
 numpy (numerical operations)
